@@ -1,0 +1,11 @@
+# data
+*.csv
+data/
+datasets/
+shadow_splits/
+*.zip
+
+# models
+*.pth
+checkpoints/
+runs/
