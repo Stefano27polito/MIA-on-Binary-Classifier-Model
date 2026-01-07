@@ -1,11 +1,37 @@
-# data
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.cache/
+.pytest_cache/
+
+# ---- venv ----
+ml_env/
+.venv/
+venv/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- OS / editor ----
+.DS_Store
+.vscode/
+.idea/
+
+# ---- Data / outputs (IMPORTANT) ----
 *.csv
-data/
-datasets/
-shadow_splits/
+*.npz
+*.json
 *.zip
 
-# models
+# (Se vuoi tenere qualche csv specifico, lo ri-abiliti con !filename.csv)
+
+# ---- Models / checkpoints ----
 *.pth
-checkpoints/
-runs/
+
+# ---- Logs ----
+*.log
